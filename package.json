@@ -16,7 +16,7 @@
   "bugs": {
     "url": "https://github.com/toussai37/Web-Design-Challenge/issues"
   },
-  "homepage": "https://github.com/toussai37.github.io/Web-Design-Challenge",
+  "homepage": "https://toussai37.github.io/Web-Design-Challenge",
   "dependencies": {
     "gh-pages": "^3.2.3"
   }
