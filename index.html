@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+  <meta charset="UTF-8">
+  <title>Web Visualization Dashboard</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+  <nav class="navbar navbar-light bg-light">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="index.html">Latitude</a>
+      <div class="p-2 bd-highlight">
+      <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+        Plots
+      </button>
+      <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+        <li><a class="dropdown-item" href="max_temperature.html">Max Temperature</a></li>
+        <li><a class="dropdown-item" href="humidity.html">Humidity</a></li>
+        <li><a class="dropdown-item" href="cloudiness.html">Cloudiness</a></li>
+        <li><a class="dropdown-item" href="windspeed.html">Wind Speed</a></li>
+      </ul>
+      <a class="nav-link" href="data.html">Data</a>
+      <a class="nav-link" href="comparisons.html">Comparison</a>
+    </div>
+    </div>             
+  </nav>
+  
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <h1>Summary: Latitude vs X</h1>
+      </div>
+    </div>
+    
+    <div class="row">
+      <div class="col-md-9">
+            <img src="Resources/assets/images/Fig1.png">
+      </div>
+      <div class="col-md-3">
+        
+        <div class="p-2 bd-highlight">
+        <div class="d-flex flex-column flex-shrink-0  p-3 bg-light" style="width: 281px;">
+          <a class="d-flex align-items-center mb-3 mb-md-0 me-md-auto link-dark text-decoration-none"></a>
+            <span class="fs-4">Visualizations</span>
+          </a>
+          <a href="max_temperature.html"><img src="Resources/assets/images/Fig1.png" width="250px" height="150px"></a>
+          <a href="humidity.html"><img src="Resources/assets/images/Fig2.png" width="250px" height="150px"></a> 
+          <a href="cloudiness.html"><img src="Resources/assets/images/Fig3.png" width="250px" height="150px"></a> 
+          <a href="windspeed.html"><img src="Resources/assets/images/Fig4.png" width="250px" height="150px"></a> 
+          </div>
+          </div>
+          </div>
+        </div>
+      </div>
+    </div>
+        <p>The purpose of this project was to analyze how weather changes as you get closer to the equator. To accomplish this we first pulled data from the open weather API to make a dataset of over 500 cities. </p>
+        <p>After assembling the data we used Matplotlib to plot the various aspects of the weather vs Latitude. Factors we looked at included Max Temperature, Humidity, Cloudiness, and Wind Speed. This site provides the source data and the visualizations created as a part of the analysis as well as explanations and descriptions of any trends and correlations witnessed.</p>
+    </div>
+
+</body>
+
+</html>
